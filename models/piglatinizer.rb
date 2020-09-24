@@ -1,9 +1,4 @@
 class PigLatinizer
-    attr_reader :words
-   
-    def initialize
-      @words = words
-    end
 
     def piglatinize(words)
       if words.strip.include? " "
